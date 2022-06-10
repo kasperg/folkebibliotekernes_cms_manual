@@ -9,11 +9,11 @@ main:
     url: /about/
 
 sidebar:
-  - title: "Posts"
+  - title: "Funktionalitet"
     url: /posts/
-  - title: "Categories"
+  - title: "Indhold"
     url: /categories/
-  - title: "Tags"
+  - title: "Administration"
     url: /tags/
-  - title: "About"
+  - title: "Konfiguration"
     url: /about/
