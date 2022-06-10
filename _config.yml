@@ -75,4 +75,7 @@ defaults:
       layout: single
       toc: true
       toc_label: "Indhold på siden"
+      sidebar:
+        title: "Vejledninger"
+        nav: sidebar
       author_profile: false
