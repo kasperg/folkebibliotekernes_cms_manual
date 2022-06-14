@@ -72,6 +72,18 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Collections
+collections:
+  administrator:
+    output: true
+    permalink: /:collection/:path/
+  redaktoer:
+    output: true
+    permalink: /:collection/:path/
+  udvikler:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _pages
   - scope:
@@ -85,27 +97,33 @@ defaults:
         title: "Vejledninger"
         nav: sidebar
       author_profile: false
-    # _pages/redaktoer
+    # _redaktoer
   - scope:
-      path: "_pages/redaktoer"
-      type: pages
+      path: ""
+      type: redaktoer
     values:
       layout: single
       toc: true
       toc_label: "Indhold på siden"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
       sidebar:
         title: "Redaktør manual"
-        nav: redaktoer
-      author_profile: false
-    # _pages/administrator
+        nav: "redaktoer"
+      # _administrator
   - scope:
-      path: "_pages/administrator"
-      type: pages
+      path: ""
+      type: administrator
     values:
       layout: single
       toc: true
       toc_label: "Indhold på siden"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
       sidebar:
         title: "Administrator manual"
-        nav: admin
-      author_profile: false
+        nav: "administrator"
