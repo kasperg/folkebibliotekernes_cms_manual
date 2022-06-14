@@ -87,7 +87,7 @@ defaults:
       author_profile: false
    # _pages/redaktoer
   - scope:
-      path: "_pages/redaktoer/"
+      path: "_pages/redaktoer"
       type: pages
     values:
       layout: single
@@ -99,7 +99,7 @@ defaults:
       author_profile: false
    # _pages/administrator
   - scope:
-      path: "_pages/administrator/"
+      path: "_pages/administrator"
       type: pages
     values:
       layout: single
