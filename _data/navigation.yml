@@ -6,50 +6,11 @@ main:
   - title: "Udvikler"
     url: /udvikler/
 
-redaktoer:
-  - title: "Opret indhold"
-    children:
-      - title: "Bibliotek"
-        url: /redaktoer/bibliotek/
-      - title: "Åbningstider"
-        url: /redaktoer/aabeningstider/
-      - title: "Gruppe (Temasider)"
-        url: /readktoer/grupper/
-      - title: "Sektion"
-        url: /redaktoer/sektion/
-      - title: "Begivenhed (arrangement)"
-        url: /redaktoer/arrangement/
-      - title: "Place2Book"
-        url: /redaktoer/place2book/
-      - title: "Nyhed"
-        url: /redaktoer/nyhed/
-
-  - title: "Hjemmesidens struktur"
-    children:
-      - title: "Hovedmenuen"
-        url: /redaktoer/hovedmenu/
-      - title: "Secondary menu"
-        url: /redaktoer/secondary-menu/
-      - title: "Footermenu"
-        url: /redaktoer/footer-menu/
-
-administrator:
-  - title: "Farver og logo"
-    url: /administrator/farver-logo/
-  - title: "Overlay"
-    url: /administrator/overlay/
-  - title: "Opret grupper (Temasider)"
-    url: /administrator/personalisering/
-  - title: "Placering af indhold på forside/sektion"
-    url: /administrator/sektion/
-  - title: "Kontaktinformation"
-    url: /administrator/kontakt/
-
-
-udvikler:
+sitebar:
   - title: "Redaktør"
-    url: /editor/
-  - title: "Lokal administrator"
-    url: /local-admin/
+    url: /redaktoer/
+  - title: "Administrator"
+    url: /administrator/
   - title: "Udvikler"
     url: /udvikler/
+
