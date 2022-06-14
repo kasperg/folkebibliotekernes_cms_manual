@@ -1,0 +1,19 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+sidebar:
+  - title: "Funktionalitet"
+    url: /posts/
+  - title: "Indhold"
+    url: /categories/
+  - title: "Administration"
+    url: /tags/
+  - title: "Konfiguration"
+    url: /about/
