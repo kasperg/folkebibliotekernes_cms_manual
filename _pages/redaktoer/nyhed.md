@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/nyhed/
+permalink: /redaktoer/nyhed/
 title: "Nyhed"
 ---
 

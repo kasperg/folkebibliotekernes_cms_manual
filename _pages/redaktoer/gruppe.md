@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/gruppe/
+permalink: /redaktoer/gruppe/
 title: "Gruppe"
 ---
 

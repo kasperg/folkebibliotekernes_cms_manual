@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/begivenhed/
+permalink: /redaktoer/begivenhed/
 title: "Begivenhed"
 ---
 

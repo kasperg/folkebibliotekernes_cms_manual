@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/aabningstider/
+permalink: /redaktoer/aabningstider/
 title: "Åbningstider"
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/sektion/
+permalink: /redaktoer/sektion/
 title: "Sektion"
 ---
 

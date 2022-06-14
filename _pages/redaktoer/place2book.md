@@ -1,5 +1,5 @@
 ---
-permalink: /redaktor/place2book/
+permalink: /redaktoer/place2book/
 title: "Place2book"
 ---
 
