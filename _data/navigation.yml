@@ -6,6 +6,14 @@ main:
   - title: "Udvikler"
     url: /udvikler/
 
+sidebar:
+  - title: "Redaktør"
+    url: /editor/
+  - title: "Lokal administrator"
+    url: /local-admin/
+  - title: "Udvikler"
+    url: /udvikler/
+
 redaktoer:
   - title: "Sådan opretter du indhold i DDB CMS"
     children:
