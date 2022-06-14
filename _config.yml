@@ -97,7 +97,7 @@ defaults:
         title: "Redaktør manual"
         nav: redaktoer
       author_profile: false
-      # _pages/administrator
+    # _pages/administrator
   - scope:
       path: "_pages/administrator"
       type: pages
@@ -107,5 +107,5 @@ defaults:
       toc_label: "Indhold på siden"
       sidebar:
         title: "Administrator manual"
-        nav: administrator
+        nav: admin
       author_profile: false
