@@ -24,7 +24,7 @@ redaktoer:
       - title: "Nyhed"
         url: /redaktoer/nyhed/
 
-   - title: "Hjemmesidens struktur"
+  - title: "Hjemmesidens struktur"
     children:
       - title: "Hovedmenuen"
         url: /redaktoer/hovedmenu/
