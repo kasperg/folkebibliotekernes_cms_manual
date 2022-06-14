@@ -32,7 +32,7 @@ redaktoer:
       - title: "Footermenu"
         url: /redaktoer/footer-menu/
 
-admin:
+administrator:
   - title: "Farver og logo"
     url: /administrator/farver-logo/
   - title: "Overlay"
