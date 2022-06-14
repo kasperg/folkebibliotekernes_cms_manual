@@ -87,7 +87,7 @@ defaults:
       author_profile: false
    # _pages/redaktoer
   - scope:
-      path: "_pages/redaktoer"
+      path: "_pages/redaktoer/"
       type: pages
     values:
       layout: single
@@ -96,4 +96,16 @@ defaults:
       sidebar:
         title: "Redaktørmanual"
         nav: redaktoer
+      author_profile: false
+   # _pages/administrator
+  - scope:
+      path: "_pages/administrator/"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      toc_label: "Indhold på siden"
+      sidebar:
+        title: "Administratormanual"
+        nav: administrator
       author_profile: false
