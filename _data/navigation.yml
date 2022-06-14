@@ -23,7 +23,15 @@ redaktoer:
         url: /redaktoer/place2book/
       - title: "Nyhed"
         url: /redaktoer/nyhed/
-
+  - title: "Hjemmesidens struktur"
+    children:
+      - title: "Hovedmenuen"
+        url: /redaktoer/hovedmenu/
+      - title: "Secondary menu"
+        url: /redaktoer/secondary-menu/
+      - title: "Footermenu"
+        url: /redaktoer/footer-menu/
+        
 sidebar:
   - title: "Funktionalitet"
     url: /posts/
