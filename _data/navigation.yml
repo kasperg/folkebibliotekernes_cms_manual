@@ -6,12 +6,20 @@ main:
   - title: "Udvikler"
     url: /udvikler/
 
-sidebar:
-  - title: "Funktionalitet"
-    url: /posts/
-  - title: "Indhold"
-    url: /categories/
-  - title: "Administration"
-    url: /tags/
-  - title: "Konfiguration"
-    url: /about/
+redaktoer:
+  - title: "Sådan opretter du indhold i DDB CMS"
+    children:
+      - title: "Opret et Bibliotek"
+        url: /redaktoer/bibliotek/
+      - title: "Åbningstider"
+        url: /redaktoer/aabeningstider/
+      - title: "Opret grupper (Temasider)"
+        url: /readktoer/grupper/
+      - title: "Opret en sektion"
+        url: /redaktoer/sektion/
+      - title: "Opret en Begivenhed (arrangement)"
+        url: /redaktoer/arrangement/
+      - title: "Place2Book: Send en begivenhed (arrangement) til Place2Book"
+        url: /redaktoer/place2book/
+      - title: "Opret en nyhed"
+        url: /redaktoer/nyhed/
