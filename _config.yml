@@ -94,6 +94,6 @@ defaults:
       toc: true
       toc_label: "Indhold på siden"
       sidebar:
-        title: "Redaktoer manual"
+        title: "Redaktør manual"
         nav: sidebar
       author_profile: false
