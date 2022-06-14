@@ -33,16 +33,18 @@ redaktoer:
         url: /redaktoer/footer-menu/
 
 administrator:
-  - title: "Farver og logo"
-    url: /administrator/farver-logo/
-  - title: "Overlay"
-    url: /administrator/overlay/
-  - title: "Opret grupper (Temasider)"
-    url: /administrator/personalisering/
-  - title: "Placering af indhold på forside/sektion"
-    url: /administrator/sektion/
-  - title: "Kontaktinformation"
-    url: /administrator/kontakt/
+  - title: "Overskrift"
+    children:
+      - title: "Farver og logo"
+        url: /administrator/farver-logo/
+      - title: "Overlay"
+        url: /administrator/overlay/
+      - title: "Opret grupper (Temasider)"
+        url: /administrator/personalisering/
+      - title: "Placering af indhold på forside/sektion"
+        url: /administrator/sektion/
+      - title: "Kontaktinformation"
+        url: /administrator/kontakt/
         
 sidebar:
   - title: "Funktionalitet"
