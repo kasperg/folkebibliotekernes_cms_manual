@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Manual til Folkebibliotekernes CMS"
+subtitle: "hallo"
 ---
 
 ## Manual for Folkebibliotekernes CMS
