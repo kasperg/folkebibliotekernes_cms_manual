@@ -1,8 +1,5 @@
 on:
-  push:
-    branches:
-      - current-release
-      - main
+  page_build:
 
 name: algolia-search
 jobs:
