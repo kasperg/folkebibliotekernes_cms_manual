@@ -11,9 +11,13 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}
         <ul class="nav__items">
+          <li>
+            <ul>
           {% for item in page.collection %}
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
+            </ul>
+          </li>
         </ul>
       {% endif %}
     {% endfor %}
