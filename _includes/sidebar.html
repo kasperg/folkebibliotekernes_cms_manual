@@ -12,7 +12,6 @@
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
       {% for collection in site.collections %}
         {% if collection.label == page.collection %}
         <nav class="nav__list">
