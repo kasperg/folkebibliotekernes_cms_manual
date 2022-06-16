@@ -18,11 +18,8 @@
       {% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
-      <ul>
-        {% for item in page.collection %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
+        {{ page.collection }}
+        {{ site.collections }}
     {% endif %}
   {% endif %}
   </div>
