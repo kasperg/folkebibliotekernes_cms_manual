@@ -10,7 +10,7 @@
       {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}
-        <ul>
+        <ul class="nav__items">
           {% for item in page.collection %}
               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endfor %}
@@ -20,10 +20,11 @@
     {% if page.sidebar.nav %}
       {% for collection in site.collections %}
     {% if collection.label == page.collection %}
-   
+    <ul class="nav__items">
         {% for item in site[collection.label] %}
-            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+               <li><a href="{{ site.baseurl }}{{ item.url }}"{% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
         {% endfor %}
+     </ul>
     {% endif %}
 {% endfor %}
 
