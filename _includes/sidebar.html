@@ -18,7 +18,11 @@
       {% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
+      <ul>
+        {% for item in page.collection %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
     {% endif %}
   {% endif %}
   </div>
