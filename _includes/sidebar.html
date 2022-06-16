@@ -25,10 +25,14 @@
       {% for collection in site.collections %}
     {% if collection.label == page.collection %}
     <ul class="nav__items">
+                <li>
+            <ul>
         {% for item in site[collection.label] %}
                <li><a href="{{ site.baseurl }}{{ item.url }}"{% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
         {% endfor %}
      </ul>
+                     </ul>
+          </li>
     {% endif %}
 {% endfor %}
 
