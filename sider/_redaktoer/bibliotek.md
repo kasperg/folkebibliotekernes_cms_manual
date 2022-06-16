@@ -1,5 +1,4 @@
 ---
-permalink: /redaktoer/bibliotek/
 title: "Bibliotek"
 ---
 

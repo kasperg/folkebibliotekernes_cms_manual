@@ -83,6 +83,9 @@ collections:
   udvikler:
     output: true
     permalink: /:collection/:path/
+  skriveguide:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _pages
@@ -92,7 +95,7 @@ defaults:
     values:
       layout: splash
       author_profile: false
-    # _redaktoer
+  # _redaktoer
   - scope:
       path: ""
       type: redaktoer
@@ -107,7 +110,7 @@ defaults:
       sidebar:
         title: "Redaktør manual"
         nav: "redaktoer"
-      # _administrator
+  # _administrator
   - scope:
       path: ""
       type: administrator
@@ -122,3 +125,31 @@ defaults:
       sidebar:
         title: "Administrator manual"
         nav: "administrator"
+  # _udvikler
+  - scope:
+      path: ""
+      type: udvikler
+    values:
+      layout: single
+      toc: true
+      toc_label: "Indhold på siden"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        title: "Dokumentation for udviklere"
+        nav: "udvikler"
+  # _skriveguide
+  - scope:
+      path: ""
+      type: skriveguide
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        title: "Indhold"
+        nav: "skriveguide"

@@ -46,7 +46,7 @@ administrator:
       - title: "Kontaktinformation"
         url: /administrator/kontakt/
         
-sidebar:
+skriveguide:
   - title: "Funktionalitet"
     url: /posts/
   - title: "Indhold"
