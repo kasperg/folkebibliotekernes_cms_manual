@@ -22,7 +22,7 @@
     {% if collection.label == page.collection %}
    
         {% for item in site[collection.label] %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
         {% endfor %}
     {% endif %}
 {% endfor %}
