@@ -3,16 +3,17 @@ title: "Overskrifter"
 ---
 
 # Overskrifter
-Markdown koder
+Markdown koder:\
+Bemærk mellemrummet efter #. Det er et krav.
 
-    # H1 overskrift
-    ## H2 overskrift
-    ### H3 overskrift
-    #### H4 overskrift
+    # Niveau 1 overskrft
+    ## Niveau 2 overskrift
+    ### Niveau 3 overskrift
+    #### Niveau 4 overskrift
 
-Output
+Output:
 
-# H1 overskrift
-## H2 overskrift
-### H3 overskrift
-#### H4 overskrift
+# Niveau 1 overskrft
+## Niveau 2 overskrift
+### Niveau 3 overskrift
+#### Niveau 4 overskrift
