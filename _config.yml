@@ -137,10 +137,12 @@ defaults:
       type: skriveguide
     values:
       layout: single
+      toc: true
+      toc_label: "Indhold på siden"
       read_time: false
       author_profile: false
       share: false
       comments: false
       sidebar:
-        title: "Indhold"
+        title: "Skriveguide"
         nav: "skriveguide"
