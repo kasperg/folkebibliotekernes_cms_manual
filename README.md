@@ -10,8 +10,8 @@ Manualen er lavet i Jekyll og er hostet på GitHub Pages. Jekyll-temaet Minimal 
 
 Der er lavet to små "hacks" til Minimal Mistakes. 
 
-1.  Site subtitle er sat til branch name ved at kopiere og tilrette \`masthead.html\`
-2.  Der er indsat autogenereret menu i sidebar på sider der tilhører collections. Det er gjort ved at tilrette \``sidebar.html`\`
+1.  Site subtitle er sat til branch name ved at kopiere og tilrette `masthead.html`
+2.  Der er indsat autogenereret menu i sidebar på sider der tilhører collections. Det er gjort ved at tilrette `sidebar.html`
 
 #### Søgning med Algolia
 
