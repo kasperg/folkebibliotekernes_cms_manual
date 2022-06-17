@@ -60,10 +60,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-footer:
-  links:
-    - label: "Skriveguide"
-      url: /skriveguide/
+atom_feed:
+  hide: true
 
 # Collections
 collections:
