@@ -1,5 +1,5 @@
 ---
-title: "Afsnits- og linjeskift"
+title: "Formattering"
 ---
 
 ## Afsnitsskift
@@ -23,5 +23,3 @@ Man laver et blødt linkjeskift med backslash `\`
 Output:\
 Her er første sætning.\
 Her er anden sætning.
-
-
