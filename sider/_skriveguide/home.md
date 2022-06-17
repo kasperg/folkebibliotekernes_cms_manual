@@ -18,7 +18,7 @@ Markdown-filerne ligger i mapperne:
 Siderne dukker automatisk op i venstremenuen.
 
 ## Sidernes opbygning
-Alle sider skal starte som vist her. Det hedder "Front Matter". Her definerer man sidens titel. Den bruges i venstramenuen og som H1 på siden.
+Alle sider skal starte som vist her. Det hedder "Front Matter". Her definerer man sidens titel, url og rækkefølge i menuen. 
 ````
 ---
 title: "Markdown guide"
