@@ -22,7 +22,11 @@ Alle sider skal starte som vist her. Det hedder "Front Matter". Her definerer ma
 ````
 ---
 title: "Markdown guide"
+permalink: /skriveguide/markdown-guide
+weight: 2
 ---
 ````
 
-Filnavnet som siden gemmes i har kun betydning for sorteringen i venstremenuen. Derfor sætter vi tal forrest så vi kan styre rækkefølgen. Spring i tallene så det er nemt at indsætte en side midt i sekvensen efterfølgende. Dvs. nummerer ikke 1,2,3,4,5 men i stedet f. eks. 1, 10, 20, 30, 40
+* Title vises som H1 på siden og i venstremenuen. 
+* Weight bestemmer rækkefølgen i venstremenuen. 
+* Permalink er den url siden bliver tilgængelig på.
