@@ -6,7 +6,7 @@ Vejledningen er en gennemgang af DDB CMS’ overordnede struktur og redaktionell
 
 #### Jekyll og Minimal Mistakes
 
-Manualen er lavet i Jekyll og er hostet på GitHub Pages. Jekyll-temaet Minimal Mistakes er anvendt og tilknyttet som "remote theme".
+Manualen er lavet i [Jekyll](https://jekyllrb.com/) og er hostet på GitHub Pages. Jekyll-temaet [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) er anvendt og tilknyttet som "remote theme".
 
 Der er lavet to små "hacks" til Minimal Mistakes. 
 
