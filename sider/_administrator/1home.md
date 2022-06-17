@@ -1,5 +1,5 @@
 ---
-title: "Manual for administrator"
+title: "Overblik og læseguide"
 permalink: /administrator/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Manual for udviklere"
+title: "Overblik og læseguide"
 permalink: /udvikler/
 ---
 

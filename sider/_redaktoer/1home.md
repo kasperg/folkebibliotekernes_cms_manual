@@ -1,5 +1,5 @@
 ---
-title: "Manual for redaktører"
+title: "Overblik og læseguide"
 permalink: /redaktoer/
 ---
 
