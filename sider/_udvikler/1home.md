@@ -1,5 +1,4 @@
 ---
-permalink: /udvikler/
 title: "Manual for udviklere"
 ---
 

@@ -1,5 +1,4 @@
 ---
-permalink: /redaktoer/
 title: "Manual for redaktører"
 ---
 

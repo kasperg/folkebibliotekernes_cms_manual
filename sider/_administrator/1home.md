@@ -1,5 +1,4 @@
 ---
-permalink: /administrator/
 title: "Manual for administrator"
 ---
 
