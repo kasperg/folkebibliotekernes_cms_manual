@@ -1,5 +1,6 @@
 ---
 title: "Markdown guide"
+permalink: /skriveguide/markdown-guide
 weight: 2
 ---
 
