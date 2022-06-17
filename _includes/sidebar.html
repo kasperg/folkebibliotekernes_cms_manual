@@ -17,13 +17,9 @@
         <nav class="nav__list">
           {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
           <ul class="nav__items">
-            <li>
-              <ul>
-                {% for item in site[collection.label] %}
-                  <li><a href="{{ site.baseurl }}{{ item.url }}"{% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
+            {% for item in site[collection.label] %}
+              <li><a href="{{ site.baseurl }}{{ item.url }}"{% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+            {% endfor %}
           </ul>
         </nav>
         {% endif %}
