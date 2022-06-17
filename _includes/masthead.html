@@ -9,7 +9,7 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
-          <span class="site-subtitle">{{ site.github.source.branch }}</span>
+          <span class="site-subtitle">{{ site.github.source.branch | replace: "-", " "}}</span>
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
