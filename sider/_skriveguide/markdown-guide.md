@@ -1,5 +1,6 @@
 ---
 title: "Markdown guide"
+weight: 2
 ---
 
 ## Standard markdown

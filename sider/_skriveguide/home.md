@@ -1,6 +1,7 @@
 ---
 title: "Kom godt i gang"
 permalink: /skriveguide/
+weight: 1
 ---
 
 ## Manualens opbygning
