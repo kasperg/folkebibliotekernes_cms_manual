@@ -1,5 +1,5 @@
 ---
-title: "Overblik"
+title: "Redaktør overblik"
 permalink: /redaktoer/
 weight: 0
 ---
