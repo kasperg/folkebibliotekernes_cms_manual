@@ -1,5 +1,6 @@
 ---
 title: "Redaktør manual"
+permalink: /redaktoer/
 weight: 0
 ---
 
