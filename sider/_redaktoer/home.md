@@ -1,5 +1,5 @@
 ---
-title: "Redaktør manual"
+title: "Overblik"
 permalink: /redaktoer/
 weight: 0
 ---
