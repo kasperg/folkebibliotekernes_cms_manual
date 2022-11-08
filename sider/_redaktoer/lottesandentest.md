@@ -10,6 +10,7 @@ Jeg tror, det kan være lidt forvirrende for nye til github hvis vi skal indrull
 - Punktopstilling - det glemte jeg
 - Mon det virker?
   - Og bliver det her et underpunkt?
+- Nu tilføjer jeg et ekstra menupunkt til listen
 
 **Test:** Mon det her bliver en fin boks? - skal den ikke have en begyndelse?
 {: .notice--info}
