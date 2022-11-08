@@ -15,4 +15,5 @@ Her er en side om noget
 {: .notice--info}  
  
 
-![image](https://user-images.githubusercontent.com/1641342/194061518-17a165a4-af78-40ac-9029-9bd57deb5496.png)
+
+![amazon bookstore2](https://user-images.githubusercontent.com/1641342/200555270-a97410dc-0172-4ed7-bbdb-5d36c5d57633.jpg)
