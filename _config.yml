@@ -28,6 +28,7 @@ algolia:
   index_name: prod_folkebibliotekernes_cms_manual
   search_only_api_key: d0da63a81606f093f2e7e4fc4cbef2b1
   powered_by: true
+  nodes_to_index: 'p,blockquote,li'
 
 # Build settings
 markdown: kramdown
