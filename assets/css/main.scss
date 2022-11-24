@@ -6,7 +6,12 @@ search: false
 
 @charset "utf-8";
 
+$link-color: red;
+h2 {
+  color: blue;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-$link-color: red;
+
