@@ -1,3 +1,10 @@
+---
+
+title: "Billedformattering"  
+weight: 1
+
+---
+
 # Billedformattering
 Galleri over der viser hvilke muligheder for billedformattering der ligger i Minimal Mistakes
 
