@@ -30,12 +30,13 @@ algolia:
   powered_by: true
   nodes_to_index: 'h1,h2,h3,h4,h5,h6,p,blockquote,li'
 
+github: [metadata]
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-collections_dir: sider
 
 include:
   - _pages
@@ -66,13 +67,7 @@ atom_feed:
 
 # Collections
 collections:
-  administrator:
-    output: true
-    permalink: /:collection/:path/
-  redaktoer:
-    output: true
-    permalink: /:collection/:path/
-  udvikler:
+  manual:
     output: true
     permalink: /:collection/:path/
 
@@ -84,10 +79,10 @@ defaults:
     values:
       layout: splash
       author_profile: false
-  # _redaktoer
+  # _manual_page
   - scope:
       path: ""
-      type: redaktoer
+      type: manual
     values:
       layout: single
       toc: true
@@ -99,33 +94,4 @@ defaults:
       sidebar:
         title: "Redaktør manual"
         nav: "redaktoer"
-  # _administrator
-  - scope:
-      path: ""
-      type: administrator
-    values:
-      layout: single
-      toc: true
-      toc_label: "Indhold på siden"
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        title: "Administrator manual"
-        nav: "administrator"
-  # _udvikler
-  - scope:
-      path: ""
-      type: udvikler
-    values:
-      layout: single
-      toc: true
-      toc_label: "Indhold på siden"
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        title: "Dokumentation for udviklere"
-        nav: "udvikler"
+
