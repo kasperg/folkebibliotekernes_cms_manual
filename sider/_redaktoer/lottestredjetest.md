@@ -4,7 +4,7 @@ weight: 70
 ---
 
 *Dette er et nyt forsøg på at lægge noget op i manualen*
-# Sådan ser en overskift ud?
+# Sådan ser en overskrift ud?
 Her skriver jeg noget fornuftigt om hvordan man gør det ene eller andet
 Jeg tror, det kan være lidt forvirrende for nye til github hvis vi skal indrullere biblioteker til at skrive i manualen, men det virker som om det er nemmere at styre formatteringen her i github end hvis jeg skriver koden i Notepad og kopierer over. Her kan jeg i det mindste se noget af det.
 - Punktopstilling - det glemte jeg
