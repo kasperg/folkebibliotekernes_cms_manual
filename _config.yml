@@ -30,15 +30,17 @@ algolia:
   powered_by: true
   nodes_to_index: 'h1,h2,h3,h4,h5,h6,p,blockquote,li'
 
+github: [metadata]
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-collections_dir: sider
 
 include:
   - _pages
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -66,13 +68,16 @@ atom_feed:
 
 # Collections
 collections:
-  administrator:
+  manual:
     output: true
     permalink: /:collection/:path/
-  redaktoer:
+  audience:
     output: true
     permalink: /:collection/:path/
-  udvikler:
+  category:
+    output: true
+    permalink: /:collection/:path/
+  topic:
     output: true
     permalink: /:collection/:path/
 
@@ -84,48 +89,52 @@ defaults:
     values:
       layout: splash
       author_profile: false
-  # _redaktoer
+  # _manual
   - scope:
       path: ""
-      type: redaktoer
+      type: manual
     values:
       layout: single
       toc: true
-      toc_label: "Indhold på siden"
+      toc_label: "Indhold i artiklen"
       read_time: false
       author_profile: false
       share: false
       comments: false
       sidebar:
-        title: "Redaktør manual"
-        nav: "redaktoer"
-  # _administrator
+        title: "Manual"
+        nav: "manual"
+  # _audience
   - scope:
       path: ""
-      type: administrator
+      type: audience
     values:
-      layout: single
-      toc: true
-      toc_label: "Indhold på siden"
+      layout: taxonomy-term
+      taxonomy-header: "Artikler relevante for rollen"
       read_time: false
       author_profile: false
       share: false
       comments: false
-      sidebar:
-        title: "Administrator manual"
-        nav: "administrator"
-  # _udvikler
+  # _category
   - scope:
       path: ""
-      type: udvikler
+      type: category
     values:
-      layout: single
-      toc: true
-      toc_label: "Indhold på siden"
+      layout: taxonomy-term
+      taxonomy-header: "Artikler i kategorien"
       read_time: false
       author_profile: false
       share: false
       comments: false
-      sidebar:
-        title: "Dokumentation for udviklere"
-        nav: "udvikler"
+  # _topic
+  - scope:
+      path: ""
+      type: topic
+    values:
+      layout: taxonomy-term
+      taxonomy-header: "Artikler om emnet"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+
