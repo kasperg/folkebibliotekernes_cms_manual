@@ -1,5 +1,11 @@
 ---
 title: "En side om noget andet"
-weight: 1
+category: "Sider og nyheder"
+audience:
+  - Redaktør
+  - Administrator
+  - Udvikler
+topic:
+  - Betaling
 ---
 Her er en side om noget andet

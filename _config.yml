@@ -41,6 +41,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -70,6 +71,15 @@ collections:
   manual:
     output: true
     permalink: /:collection/:path/
+  audience:
+    output: true
+    permalink: /:collection/:path/
+  category:
+    output: true
+    permalink: /:collection/:path/
+  topic:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _pages
@@ -79,19 +89,52 @@ defaults:
     values:
       layout: splash
       author_profile: false
-  # _manual_page
+  # _manual
   - scope:
       path: ""
       type: manual
     values:
       layout: single
       toc: true
-      toc_label: "Indhold på siden"
+      toc_label: "Indhold i artiklen"
       read_time: false
       author_profile: false
       share: false
       comments: false
       sidebar:
-        title: "Redaktør manual"
-        nav: "redaktoer"
+        title: "Manual"
+        nav: "manual"
+  # _audience
+  - scope:
+      path: ""
+      type: audience
+    values:
+      layout: taxonomy-term
+      taxonomy-header: "Artikler relevante for rollen"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+  # _category
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: taxonomy-term
+      taxonomy-header: "Artikler i kategorien"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+  # _topic
+  - scope:
+      path: ""
+      type: topic
+    values:
+      layout: taxonomy-term
+      taxonomy-header: "Artikler om emnet"
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
 

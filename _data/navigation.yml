@@ -1,7 +1,3 @@
 main:
-  - title: "Redaktør"
-    url: /redaktoer/
-  - title: "Administrator"
-    url: /administrator/
-  - title: "Udvikler"
-    url: /udvikler/
+  - title: "Manual"
+    url: /manual/

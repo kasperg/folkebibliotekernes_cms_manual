@@ -1,6 +1,13 @@
 ---
 title: "Lottesandentest"
-weight: 70
+category: "Sider og nyheder"
+audience:
+  - Redaktør
+  - Administrator
+  - Udvikler
+topic:
+  - Formidling
+  - Betaling
 ---
 
 *Dette er et nyt forsøg på at lægge noget op i manualen*

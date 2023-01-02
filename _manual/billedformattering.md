@@ -1,8 +1,14 @@
 ---
-
 title: "Billedformattering"  
-weight: 1
-
+category: "Søgning"
+audience:
+  - Redaktør
+  - Administrator
+  - Udvikler
+topic:
+  - Grundkonfigutation
+  - Formidling
+  - Betaling
 ---
 
 # Billedformattering

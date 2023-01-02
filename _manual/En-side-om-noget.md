@@ -1,10 +1,16 @@
 ---
-
 title: "En side om noget"  
-weight: 2
-
+category: "Sider og nyheder"
+audience:
+  - Redaktør
+  - Administrator
+  - Udvikler
+topic:
+  - Grundkonfigutation
 ---
 
+<h1>{{ page.caption }}</h1>
+<h1>{{ page.caption | flatify }}</h1>
 Her er en side om noget
 
 # Noget meget meget vigtigt

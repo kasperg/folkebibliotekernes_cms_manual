@@ -1,7 +1,10 @@
 ---
-title: "Redaktør overblik"
+title: "Manual til Folkebibliotekernes CMS"
 permalink: /manual/
-weight: 0
+category: "Introduktion"
+audience:
+  - Redaktør
+  - Administrator
+  - Udvikler
 ---
-
-Her er indgangssiden for manualen til redaktør brugerne.
+Her er en tekst

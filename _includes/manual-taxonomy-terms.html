@@ -1,0 +1,30 @@
+<p>
+  <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Artiklens kategori 
+  {% assign filtered = site.category | where_exp:"category","page.category contains category.title" %}
+  {% for category in filtered %}
+    <a href="{{category.url}}" class="btn btn--inverse">{{category.title}}</a>
+  {% endfor %}
+</p>
+
+<p>
+  <i class="fas fa-fw fa-tags" aria-hidden="true"></i> Artiklens emner 
+  {% assign filtered = site.topic | where_exp:"topic","page.topic contains topic.title" %}
+  {% for topic in filtered %}
+    <a href="{{topic.url}}" class="btn btn--inverse">{{topic.title}}</a>
+  {% endfor %}
+</p>
+
+<p>
+  <i class="fas fa-fw fa-user-circle" aria-hidden="true"></i> Kan udføres af
+  {% assign filtered = site.audience | where_exp:"audience","page.audience contains audience.title" %}
+  {% for audience in filtered %}
+    <a href="{{audience.url}}" class="btn btn--inverse">{{audience.title}}</a>
+  {% endfor %}
+</p>
+
+
+
+
+
+
+

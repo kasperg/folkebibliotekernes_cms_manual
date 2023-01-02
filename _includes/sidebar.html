@@ -11,25 +11,27 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
-    {% if page.sidebar.nav %}
-      {% for collection in site.collections %}
-        {% if collection.label == page.collection %}
-        <nav class="nav__list">
-          {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
-          <ul class="nav__items">
-            <li>
-              <ul>
-                {% assign sorted = site[collection.label] | sort: 'weight' %}
-                {% for item in sorted %}
-                  <li><a href="{{ site.baseurl }}{{ item.url }}"{% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+
+    <nav class="nav__list">
+      <input id="ac-toc" name="accordion-toc" type="checkbox" />
+      <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+      <ul class="nav__items">
+        {% assign sorted_category = site.category | sort: "title" %}
+        {% for category in sorted_category %}
+          <li>
+            <span class="nav__sub-title">{{ category.title }}</span>        
+            <ul>
+              {% assign filtered = site.manual | where:"category", category.title %}
+              {% assign sorted = filtered | sort: "title" %}
+              {% for manual in sorted %}
+              <li><a href="{{ site.baseurl }}{{ manual.url }}"{% if manual.url == page.url %} class="active"{% endif %}>{{ manual.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}     
+      </ul>
+    </nav>
   {% endif %}
+
   </div>
 {% endif %}
