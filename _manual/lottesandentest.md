@@ -23,4 +23,5 @@ Jeg tror, det kan være lidt forvirrende for nye til github hvis vi skal indrull
 {: .notice--info}
 
 ![Reserveringer i kø](https://user-images.githubusercontent.com/113546465/195803332-e3c7e836-12ee-423c-a708-33f3ab8e6069.png)
+
 *Skal jeg beskære alle billeder på forhånd - er det ikke nogen mulighed for crop/justering af str. i Github editoren?? Og kan jeg oprette en decideret billedtekst*
