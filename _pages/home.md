@@ -11,6 +11,13 @@ header:
       url: "https://detdigitalefolkebibliotek.dk/section/next"
 excerpt: "Det nye CMS er godt på vej. Følge med i processen hos Danskernes Digitale Bibliotek."
 feature_row:
+  - image_path: /assets/images/users.jpg
+    alt: "Manual til Folkebibliotekernes CMS"
+    title: "Manual til Folkebibliotekernes CMS"
+    excerpt: "Manualen er under udvikling. Følg arbejdet her."
+    url: "manual"
+    btn_label: "Læs mere"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/settings.jpg
     alt: "Guidelines til god webkommunikation"
     title: "Guidelines til god webkommunikation"
@@ -18,19 +25,12 @@ feature_row:
     url: "category/grundkonfiguration"
     btn_label: "Læs mere"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/users.jpg
-    alt: "Manual efter brugerrolle"
-    title: "Manual efter brugerrolle"
-    excerpt: "Se de artikler der passer til din brugerrolle."
-    url: "audience"
-    btn_label: "Læs mere"
-    btn_class: "btn--inverse"
+
 ---
 
 {% include feature_row %}
 
-## Manual til folkebibliotekernes CMS
-Vejledningen er en gennemgang af DDB CMS’ overordnede struktur og redaktionelle funktioner. Den er rettet mod medarbejdere, der fungerer som redaktører eller andre typer af indholdsproducenter på sitet. Vejledningen introducerer også forskellige værktøjer, der anvendes til at strukturere indhold og administrative/tekniske funktioner (f.eks. brugeradministration), som kan være relevante for både redaktører og webmastere.
+
 
 
 
