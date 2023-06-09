@@ -5,11 +5,11 @@ layout: splash
 header:
   overlay_image: /assets/images/splash.png
   actions:
-    - label: "Læs nyheder fra Det digitiale Folkebibliotek (DDF)"
+    - label: "Læs nyheder om Folkebibliotekernes CMS"
       url: "https://detdigitalefolkebibliotek.dk/nyheder?field_ding_news_category_tid[]=38"
     - label: "Læs om NEXT programmet"
       url: "https://detdigitalefolkebibliotek.dk/section/next"
-excerpt: "Det nye CMS er godt på vej. Følge med i processen på DDFś hjemmeside."
+excerpt: "Det nye CMS er godt på vej. Følge med i processen hos Danskernes Digitale Bibliotek."
 feature_row:
   - image_path: /assets/images/settings.jpg
     alt: "Manual efter emne"
