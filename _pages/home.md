@@ -1,13 +1,15 @@
 ---
 permalink: /
-title: "Folkebibliotekernes CMS er på vej"
+title: "Folkebibliotekernes CMS er på vej."
 layout: splash
 header:
   overlay_image: /assets/images/splash.png
   actions:
-    - label: "Læs mere her"
+    - label: "Læs nyheder fra Det digitiale Folkebibliotek (DDF)"
       url: "https://detdigitalefolkebibliotek.dk/nyheder?field_ding_news_category_tid[]=38"
-excerpt: "Det nye CMS er godt på vej. Læs nyheder fra DDF for at følge med i processen."
+    - label: "Læs om NEXT programmet"
+      url: "https://detdigitalefolkebibliotek.dk/section/next"
+excerpt: "Det nye CMS er godt på vej. Følge med i processen på DDFś hjemmeside."
 feature_row:
   - image_path: /assets/images/settings.jpg
     alt: "Manual efter emne"
