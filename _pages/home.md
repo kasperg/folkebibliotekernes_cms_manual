@@ -12,9 +12,9 @@ header:
 excerpt: "Det nye CMS er godt på vej. Følge med i processen hos Danskernes Digitale Bibliotek."
 feature_row:
   - image_path: /assets/images/settings.jpg
-    alt: "Manual efter emne"
-    title: "Kom i gang"
-    excerpt: "FEATURED: Grundkonfiguration af Folkebibliotekernes CMS."
+    alt: "Guidelines til god webkommunikation"
+    title: "Guidelines til god webkommunikation"
+    excerpt: "FEATURED: Skriv tekster med god tilgængelighed og høj synlighed i søgemaskiner."
     url: "category/grundkonfiguration"
     btn_label: "Læs mere"
     btn_class: "btn--inverse"
