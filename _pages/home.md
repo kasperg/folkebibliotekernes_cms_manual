@@ -21,7 +21,7 @@ feature_row:
   - image_path: /assets/images/settings.jpg
     alt: "Guidelines til god webkommunikation"
     title: "Guidelines til god webkommunikation"
-    excerpt: "FEATURED: Skriv tekster med god tilgængelighed og høj synlighed i søgemaskiner."
+    excerpt: "Skriv tekster med god tilgængelighed og høj synlighed i søgemaskiner."
     url: "category/grundkonfiguration"
     btn_label: "Læs mere"
     btn_class: "btn--inverse"
