@@ -24,9 +24,9 @@ minimal_mistakes_skin: default
 search: true
 search_provider: algolia
 algolia:
-  application_id: 0DVITCE5YK
+  application_id: TVP7W0OS24
   index_name: prod_folkebibliotekernes_cms_manual
-  search_only_api_key: d0da63a81606f093f2e7e4fc4cbef2b1
+  search_only_api_key: e8c5920789ad3f6d57903b6edc107af5
   powered_by: true
   nodes_to_index: 'h1,h2,h3,h4,h5,h6,p,blockquote,li'
 
