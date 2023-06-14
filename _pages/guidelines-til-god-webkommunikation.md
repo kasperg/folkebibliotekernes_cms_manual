@@ -10,16 +10,16 @@ Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen ha
 {% capture overskriftseksempler %}
 Eksempler på to forskellige overskrifter til artikel om grønne aktiviteter for børn.
 
-  1. Grønne dage i foråret
+  \1. Grønne dage i foråret
   {: .red}
-  2. Naturoplevelser for børn på bibliotekerne
+  \2. Naturoplevelser for børn på bibliotekerne
   {: .green}
   
 Og et andet eksempel.
 
-  1. Og vinderen er…
+  \1. Og vinderen er…
   {: .red}
-  2. Læsernes Bogpris 2023: Her er vinderen
+  \2. Læsernes Bogpris 2023: Her er vinderen
   {: .green}
 {% endcapture %}
 <div class="notice">{{ overskriftseksempler | markdownify }}</div>
