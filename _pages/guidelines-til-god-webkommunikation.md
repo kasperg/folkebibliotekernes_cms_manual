@@ -72,5 +72,13 @@ Derfor skal de:
 - Skal kunne læses uden for tekstens øvrige sammenhæng
 - Må meget gerne opfordre til en handling, som i eksemplet før
 
+## Brug gerne lister ##
+Lister i punktform er gode til at bryde en tung tekst. Brug gerne lister, når du har noget konkret fakta, der skiller sig lidt ud fra den øvrige tekst. Mellem 3-9 punkter, og husk at introducere listen med en overskrift.
+
+Det kan være:
+- Lister med nominerede forfattere
+- Tidligere vindere af en given pris
+- Trin for trin vejledning til, hvordan man bruger en digital service
+- Et konkret program for et arrangement
 
 
