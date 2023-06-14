@@ -81,4 +81,9 @@ Det kan være:
 - Trin for trin vejledning til, hvordan man bruger en digital service
 - Et konkret program for et arrangement
 
+## Billeder ##
+- Billeder må ALDRIG uploades i høj opløsning – det gør sitet langsomt (upload kun billeder i 72 dpi)
+- Navngiv dine billeder logisk. Kald dem ikke indforståede navne. Har du et billede af Benjamin Koppel kalder du det benjamin-koppel med bindestreg og aldrig underscore. På den måde har de både en bedre webtilgængelighed og bedre kår i en Google-søgning.
+- Husk alt-tekster på alle billeder. En kort tekst, der beskriver, hvad du kan se på billedet
+- Husk foto-kreditering
 
