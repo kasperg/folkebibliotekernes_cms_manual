@@ -3,7 +3,7 @@ permalink: /guidelines-til-god-webkommunikation
 title:  "Guidelines: God webkommunikation"
 ---
 # Guidelines: God webkommunikation #
-## Overskrifter ##
+## Overskrift ##
 
 Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. at øge synligheden i Google.
 
@@ -27,4 +27,19 @@ Og et andet eksempel.
 - Overvej, at overskriften ofte vises uden sammenhæng til indholdet (evt. som teaser på forside eller sektionsside). Derfor skal den kunne afkodes uden umiddelbar kontekst
 
 - Overskriften skal hverken være for kort eller lang. Anbefalingen er max. 55 tegn. På den måde bliver overskriften vist i fuld længde på Google, Facebook og undgår at gå i to deck på sitet
+
+## Indledning ##
+Der er umiddelbart to forskellige veje at gå. Teasende eller opsummerende. Fælles for de to er, at de max må være 160 tegn.
+
+**Den teasende indledning:** Skal give læseren lyst til at læse videre. Det kan være, hvis teksten indeholder overraskende info, som med fordel kan holdes lidt tilbage.
+
+{% capture teasereksempler %}
+Et par eksempler på en teasende indledning:
+
+Her kan du se de syv bøger, der er nomineret til Politikens Litteraturpris 2022. Og bøgerne kan du selvfølgelig låne hos os!
+-
+”Hvis de døde kunne tale” siger man. Og netop det gør de i "Spoon River Antologien" af Edgar Lee Masters.
+{% endcapture %}
+<div class="notice">{{ teasereksempler | markdownify }}</div>
+
 
