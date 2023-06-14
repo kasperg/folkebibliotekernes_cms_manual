@@ -15,6 +15,21 @@ search: false
 .red {
   color: red;
 }
+.page__content .feature__item a:not(.btn):hover {
+  text-decoration: none;
+}
+
+.feature__item a {
+  text-decoration: none;
+  color: #3d4144;
+}
+
+.feature__item a h2{
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+
 
 figure img, figure iframe, figure .fluid-width-video-wrapper {
   margin-bottom: 0.2em;
