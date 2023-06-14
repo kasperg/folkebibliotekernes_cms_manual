@@ -1,7 +1,8 @@
 # Guidelines: God webkommunikation #
 ## Overskrift: ##
 
-- Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. SEO.
+Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. SEO.
+  
 Eksempler på to forskellige overskrifter til artikel om grønne aktiviteter for børn.
 
   Grønne dage i foråret
