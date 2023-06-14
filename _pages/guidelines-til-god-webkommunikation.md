@@ -36,9 +36,9 @@ Der er umiddelbart to forskellige veje at gå. Teasende eller opsummerende. Fæl
 {% capture teasereksempler %}
 Et par eksempler på en teasende indledning:
 
-Her kan du se de syv bøger, der er nomineret til Politikens Litteraturpris 2022. Og bøgerne kan du selvfølgelig låne hos os!
+- Her kan du se de syv bøger, der er nomineret til Politikens Litteraturpris 2022. Og bøgerne kan du selvfølgelig låne hos os!
 
-”Hvis de døde kunne tale” siger man. Og netop det gør de i "Spoon River Antologien" af Edgar Lee Masters.
+- ”Hvis de døde kunne tale” siger man. Og netop det gør de i "Spoon River Antologien" af Edgar Lee Masters.
 {% endcapture %}
 <div class="notice">{{ teasereksempler | markdownify }}</div>
 
