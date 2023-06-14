@@ -2,8 +2,8 @@
 permalink: /guidelines-til-god-webkommunikation
 title:  "Guidelines: God webkommunikation"
 ---
-
-## Overskrift: ##
+# Guidelines: God webkommunikation #
+## Overskrifter ##
 
 Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. at øge synligheden i Google.
 
