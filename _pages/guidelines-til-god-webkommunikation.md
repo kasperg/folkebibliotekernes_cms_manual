@@ -34,7 +34,7 @@ Der er umiddelbart to forskellige veje at gå. Teasende eller opsummerende. Fæl
 **Den teasende indledning:** Skal give læseren lyst til at læse videre. Det kan være, hvis teksten indeholder overraskende info, som med fordel kan holdes lidt tilbage.
 
 {% capture teasereksempler %}
-Et par eksempler på en teasende indledning:
+To eksempler på en teasende indledning:
 
 - Her kan du se de syv bøger, der er nomineret til Politikens Litteraturpris 2022. Og bøgerne kan du selvfølgelig låne hos os!
 
