@@ -53,6 +53,7 @@ To eksempler kan være:
 
 ## Mellemoverskrifter (Overskrift 2 – H2) ##
 Husk mellemoverskrifter i din brødtekst. De fungerer som et anker for øjet i en lang tekst. Brug overskrift 2 til mellemoverskrifter, og hvis du har en underoverskrift til mellemoverskriften bruger du overskrift 3.
+
 De skal helst:
 - Have et nøgleord i starten af overskriften
 - Fylde mere end et enkelt ord, men ikke gå i to deck
