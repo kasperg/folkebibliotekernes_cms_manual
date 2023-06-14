@@ -1,4 +1,8 @@
-# Guidelines: God webkommunikation #
+---
+permalink: /guidelines-til-god-webkommunikation
+title:  "Guidelines: God webkommunikation"
+---
+
 ## Overskrift: ##
 
 Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. SEO.
