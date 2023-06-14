@@ -9,9 +9,9 @@ Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen ha
   
 Eksempler på to forskellige overskrifter til artikel om grønne aktiviteter for børn.
 
-  Grønne dage i foråret
+  :worried: Grønne dage i foråret
   {: .notice--danger}
-  Naturoplevelser for børn på bibliotekerne
+  😃: Naturoplevelser for børn på bibliotekerne
   {: .notice--info}
 
   Og vinderen er…
