@@ -15,7 +15,7 @@ Eksempler på to forskellige overskrifter til artikel om grønne aktiviteter for
   2. Naturoplevelser for børn på bibliotekerne
   {: .green}
   
-Og her er et andet eksempel.
+Og et andet eksempel.
 
   1. Og vinderen er…
   {: .red}
