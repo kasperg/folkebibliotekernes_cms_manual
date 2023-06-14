@@ -63,6 +63,14 @@ Tommelfingerreglen er, at der max må være **5 linjer per afsnit** i en brødte
 
 Drop de lange indledninger med, at det igen er forår/sommer/efterår/vinter. Kom direkte til sagen – læseren mister lynhurtigt interessen i mødet med floskler. Fokuser i stedet benhårdt på vinklen i historien.
 
+## Links ##
+Den vigtigste regel ifht. links er, at de skal være nemme at afkode. Altså: Læseren må ikke være i tvivl om, hvor et link fører hen. Det er især også vigtigt ifht.  webtilgængelighed – et link skal kunne læses op og give umiddelbar mening.
+Derfor skal de:
+- Indeholde et nøgleord
+- Skriv fx **Se hele programmet for Kultur & festdage her** i stedet for **Se hele programmet for Kultur & festdage – klik her**
+- De skal være klare og forholdsvis korte (tommelfingerreglen hedder ca. 8 ord, men kan sagtens variere lidt)
+- Skal kunne læses uden for tekstens øvrige sammenhæng
+- Må meget gerne opfordre til en handling, som i eksemplet før
 
 
 
