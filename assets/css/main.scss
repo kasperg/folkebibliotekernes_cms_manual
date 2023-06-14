@@ -8,6 +8,14 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
 figure img, figure iframe, figure .fluid-width-video-wrapper {
   margin-bottom: 0.2em;
 }
