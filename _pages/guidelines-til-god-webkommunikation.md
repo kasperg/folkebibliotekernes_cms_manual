@@ -15,7 +15,7 @@ Eksempler på to forskellige overskrifter til artikel om grønne aktiviteter for
   👍 Naturoplevelser for børn på bibliotekerne
   {: .green}
   
-eller
+Og her er et andet eksempel.
 
   👎 Og vinderen er…
   {: .red}
