@@ -33,13 +33,22 @@ Der er umiddelbart to forskellige veje at gå. Teasende eller opsummerende. Fæl
 
 **Den teasende indledning:** Skal give læseren lyst til at læse videre. Det kan være, hvis teksten indeholder overraskende info, som med fordel kan holdes lidt tilbage.
 
-{% capture teasereksempler %}
+{% capture teaserindledning %}
 To eksempler på en teasende indledning:
 
 - Her kan du se de syv bøger, der er nomineret til Politikens Litteraturpris 2022. Og bøgerne kan du selvfølgelig låne hos os!
-
 - ”Hvis de døde kunne tale” siger man. Og netop det gør de i "Spoon River Antologien" af Edgar Lee Masters.
 {% endcapture %}
-<div class="notice">{{ teasereksempler | markdownify }}</div>
+<div class="notice">{{ teaserindledning | markdownify }}</div>
+
+**Den opsummerende indledning**: Kan med fordel bruges i forbindelse med SEO-tekster, hvor det er vigtigt at få så mange nøgleord med i indledningen som muligt. Du skal gerne kunne afkode præcist, hvad artiklen handler om, ved udelukkende at læse indledningen.
+
+{% capture opsummerendeindledning %}
+To eksempler kan være:
+ 
+- Du tror, du har gennemskuet plottet, og så smider forfatteren et overraskende twist på banen. Vi har samlet en række bøger, hvor netop plot-twistet er en essentiel del af bogen.
+- De japanske tegneserier er igen i høj kurs, og der er lige nu mange, der efterspørger Manga på børnebiblioteket. Vi opruster derfor på området med spændende nyt på hylderne.
+{% endcapture %}
+<div class="notice">{{ opsummerendeindledning | markdownify }}</div>
 
 
