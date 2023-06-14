@@ -58,5 +58,11 @@ De skal helst:
 - Have et nøgleord i starten af overskriften
 - Fylde mere end et enkelt ord, men ikke gå i to deck
 
+## Brødtekst ##
+Tommelfingerreglen er, at der max må være **5 linjer per afsnit** i en brødtekst – ellers bliver teksten hurtig uoverskuelig – i særdeleshed på telefonen.
+
+Drop de lange indledninger med, at det igen er forår/sommer/efterår/vinter. Kom direkte til sagen – læseren mister lynhurtigt interessen i mødet med floskler. Fokuser i stedet benhårdt på vinklen i historien.
+
+
 
 
