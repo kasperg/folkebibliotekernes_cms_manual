@@ -15,6 +15,15 @@ search: false
 .red {
   color: red;
 }
+
+.page__hero--overlay {
+  margin-bottom: 1em;
+}
+
+.page__content .feature__item .archive__item-title {
+  margin-top: 0.3em;
+}
+
 .page__content .feature__item a:not(.btn):hover {
   text-decoration: none;
 }

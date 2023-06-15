@@ -11,20 +11,16 @@ header:
       url: "https://detdigitalefolkebibliotek.dk/section/next"
 excerpt: "Det nye CMS er godt på vej. Følge med i processen hos Danskernes Digitale Bibliotek."
 feature_row:
-  - image_path: /assets/images/users.jpg
+  - image_path: /assets/images/manual.jpg
     alt: "Manual til Folkebibliotekernes CMS"
     title: "Manual til Folkebibliotekernes CMS"
     excerpt: "Manualen er under udvikling. Følg arbejdet her."
     url: "manual"
-    btn_label: "Læs mere"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/settings.jpg
+  - image_path: /assets/images/content.jpg
     alt: "Guidelines til god webkommunikation"
     title: "Guidelines til god webkommunikation"
     excerpt: "Skriv tekster med god tilgængelighed og høj synlighed i søgemaskiner."
     url: "category/grundkonfiguration"
-    btn_label: "Læs mere"
-    btn_class: "btn--inverse"
 
 ---
 
