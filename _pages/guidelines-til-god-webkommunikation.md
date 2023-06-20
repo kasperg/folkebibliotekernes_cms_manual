@@ -4,6 +4,8 @@ title:  "Guidelines: God webkommunikation"
 ---
 
 # Guidelines: God webkommunikation #
+Her er en tjekliste til god webkommunikation. Følger du den bliver dine tekster behagelige at læse på skærmen og du sikrer webtilgængeligheden. Og de har en form så de kan opnå høj synlighed i Google.  
+
 ## Overskrift ##
 
 Husk nøgleord i overskriften, så læseren hurtigt kan afkode, hvad artiklen handler om. (Vær hellere deskriptiv end kreativ). Den deskriptive overskrift med nøgleord er også godt ifht. at øge synligheden i Google.
