@@ -20,7 +20,7 @@ feature_row:
     alt: "Guidelines til god webkommunikation"
     title: "Guidelines til god webkommunikation"
     excerpt: "Skriv tekster med god tilgængelighed og høj synlighed i søgemaskiner."
-    url: "category/grundkonfiguration"
+    url: "guidelines-til-god-webkommunikation"
 
 ---
 
