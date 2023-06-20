@@ -4,7 +4,7 @@ title:  "Guidelines: God webkommunikation"
 ---
 
 # Guidelines: God webkommunikation #
-Her er en tjekliste til god webkommunikation. Følger du den bliver dine tekster behagelige at læse på skærmen og du sikrer webtilgængeligheden. Og de har en form så de kan opnå høj synlighed i Google.  
+Her er en tjekliste til god webkommunikation. Følger du den bliver dine tekster behagelige at læse på skærmen og du sikrer webtilgængeligheden. Samtidig opnår du også bedre synlighed i Google.  
 
 ## Overskrift ##
 
