@@ -11,7 +11,7 @@ header:
       url: "https://detdigitalefolkebibliotek.dk/section/next"
 excerpt: "Det nye CMS er godt på vej. Følge med i processen hos Danskernes Digitale Bibliotek."
 feature_row:
-  - image_path: /assets/images/manual.jpg
+  - image_path: /assets/images/new-features.png
     alt: "Nye features i Folkebibliotekernes CMS"
     title: "Nye features i Folkebibliotekernes CMS"
     excerpt: "Hvad er nyt i forhold til DDB CMS? Her er de vigtigste punkter."
