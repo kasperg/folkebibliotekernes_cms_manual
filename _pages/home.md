@@ -15,7 +15,7 @@ feature_row:
     alt: "Nye features i Folkebibliotekernes CMS"
     title: "Nye features i Folkebibliotekernes CMS"
     excerpt: "Hvad er nyt i forhold til DDB CMS? Her er de vigtigste punkter."
-    url: "manual"
+    url: "nye-features-i-folkebibliotekernes-cms"
   - image_path: /assets/images/manual.jpg
     alt: "Manual til Folkebibliotekernes CMS"
     title: "Manual til Folkebibliotekernes CMS"
