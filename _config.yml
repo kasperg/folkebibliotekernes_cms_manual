@@ -87,7 +87,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: false
   # _manual
   - scope:
