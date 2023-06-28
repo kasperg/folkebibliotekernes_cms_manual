@@ -1,5 +1,5 @@
 <p>
-  <i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Artiklens kategori 
+  <span class=".nav__sub-title"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Artiklens kategori</span>
   {% assign filtered = site.category | where_exp:"category","page.category contains category.title" %}
   {% for category in filtered %}
     <a href="{{ site.baseurl }}{{ category.url }}" class="btn btn--inverse">{{ category.title }}</a>
