@@ -15,7 +15,7 @@
 </p>
 
 <p>
-  <i class="fas fa-fw fa-user-circle" aria-hidden="true"></i> Kan udføres af
+  <i class="fas fa-fw fa-user-circle" aria-hidden="true"></i> Målgruppe
   {% assign filtered = site.audience | where_exp:"audience","page.audience contains audience.title" %}
   {% for audience in filtered %}
     <a href="{{ site.baseurl }}{{ audience.url }}" class="btn btn--inverse">{{ audience.title }}</a>
