@@ -89,6 +89,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      toc: true
+      toc_label: "Indhold i artiklen"
   # _manual
   - scope:
       path: ""
