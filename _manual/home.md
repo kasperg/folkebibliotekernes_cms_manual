@@ -1,5 +1,5 @@
 ---
-title: "Manual til Folkebibliotekernes CMS"
+title: "CMS Manual"
 permalink: /manual/
 category: "Introduktion"
 audience:
