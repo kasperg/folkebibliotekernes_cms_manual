@@ -1,5 +1,5 @@
 <p>
-  <span class="nav__sub-title"><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Artiklens kategori</span>
+  <span class="taxonomy_header "><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Artiklens kategori</span>
   {% assign filtered = site.category | where_exp:"category","page.category contains category.title" %}
   {% for category in filtered %}
     <a href="{{ site.baseurl }}{{ category.url }}" class="btn btn--inverse">{{ category.title }}</a>
@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  <span class="nav__sub-title"><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Artiklens emner</span>
+  <span class="taxonomy_header "><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Artiklens emner</span>
   {% assign filtered = site.topic | where_exp:"topic","page.topic contains topic.title" %}
   {% for topic in filtered %}
     <a href="{{ site.baseurl }}{{ topic.url }}" class="btn btn--inverse">{{ topic.title }}</a>
@@ -15,7 +15,7 @@
 </p>
 
 <p>
-  <span class="nav__sub-title"><i class="fas fa-fw fa-user-circle" aria-hidden="true"></i> Målgruppe</span>
+  <span class="taxonomy_header "><i class="fas fa-fw fa-user-circle" aria-hidden="true"></i> Målgruppe</span>
   {% assign filtered = site.audience | where_exp:"audience","page.audience contains audience.title" %}
   {% for audience in filtered %}
     <a href="{{ site.baseurl }}{{ audience.url }}" class="btn btn--inverse">{{ audience.title }}</a>
