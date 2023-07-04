@@ -1,1 +1,1 @@
-Sitemap: https://kasperg.github.io/folkebibliotekernes_cms_manual/sitemap.xml
+Sitemap: https://kasperg.github.io/pr-previews/pr-1/sitemap.xml
