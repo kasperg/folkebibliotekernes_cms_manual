@@ -8,6 +8,7 @@ on:
 
 env:
   GITHUB_PAGES_BRANCH: "gh-pages"
+  GITHUB_PAGES_ROOT_DIR: ".gh-pages"
   BUILD_DIR: "./build"
   REPO_NAME: 'folkebibliotekernes_cms_manual'
   PREVIEW_SUBDIR: 'preview'
@@ -19,6 +20,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Prepare documentation root
+        run: |
+          mkdir -p ${{ env.GITHUB_PAGES_ROOT_DIR }}
+          echo "<!DOCTYPE html>
+          <html>
+            <head><meta http-equiv="refresh" content="0; url='./main/'" /></head>
+            <body><p>You will be redirected to the documentation</p></body>
+          </html>" > ${{ env.GITHUB_PAGES_ROOT_DIR }}/index.html
+      - name: Deploy documentation root
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: ${{ env.GITHUB_PAGES_BRANCH }}
+          publish_dir: ${{ env.GITHUB_PAGES_ROOT_DIR }}
+          destination_dir: "."
+          keep_files: true
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v7
