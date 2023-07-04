@@ -61,6 +61,10 @@ jobs:
           publish_dir: ${{ env.BUILD_DIR }}
           destination_dir: ${{ steps.github-pages.outputs.directory }}
           enable_jekyll: false
+      - name: Wait for deployment to become available
+        uses: iFaxity/wait-on-action@v1
+        with:
+          resource: ${{ steps.github-pages.outputs.url }}
       - name: Update deployment status
         uses: bobheadxi/deployments@v1
         if: always()
