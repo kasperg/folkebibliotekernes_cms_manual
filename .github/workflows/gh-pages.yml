@@ -15,8 +15,10 @@ jobs:
         run: |
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             echo "::set-output name=directory::main"
+            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/folkebibliotekernes_cms_manual/main"
           else
             echo "::set-output name=directory::pr-preview/pr-${{ github.ref }}"
+            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/folkebibliotekernes_cms_manual/pr-preview/pr-${{ github.ref }}"
           fi
       - name: Set Jekyll base url
         uses: fjogeleit/yaml-update-action@main
@@ -32,6 +34,13 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           destination: ./build
+      - name: Start deployment
+        uses: bobheadxi/deployments@v1
+        id: deployment
+        with:
+          step: start
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ github.ref }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -40,3 +49,13 @@ jobs:
           publish_dir: ./build
           destination_dir: ${{ steps.github-pages.outputs.directory }}
           enable_jekyll: false
+      - name: Update deployment status
+        uses: bobheadxi/deployments@v1
+        if: always()
+        with:
+          step: finish
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          env: ${{ steps.deployment.outputs.env }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+          env_url: ${{ steps.github-pages.outputs.url }}
