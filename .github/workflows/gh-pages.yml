@@ -8,7 +8,7 @@ on:
 
 env:
   GITHUB_PAGES_BRANCH: "gh-pages"
-  GITHUB_PAGES_ROOT_DIR: ".gh-pages"
+  GITHUB_PAGES_ROOT_DIR: "./gh-pages-root"
   BUILD_DIR: "./build"
   REPO_NAME: 'folkebibliotekernes_cms_manual'
   PREVIEW_SUBDIR: 'preview'
@@ -26,7 +26,7 @@ jobs:
           mkdir -p ${{ env.GITHUB_PAGES_ROOT_DIR }}
           echo "<!DOCTYPE html>
           <html>
-            <head><meta http-equiv="refresh" content="0; url='./main/'" /></head>
+            <head><meta http-equiv=\"refresh\" content=\"0; url='./main/'\" /></head>
             <body><p>You will be redirected to the documentation</p></body>
           </html>" > ${{ env.GITHUB_PAGES_ROOT_DIR }}/index.html
       - name: Deploy documentation root
