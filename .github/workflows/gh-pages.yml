@@ -37,6 +37,7 @@ jobs:
           publish_dir: ${{ env.GITHUB_PAGES_ROOT_DIR }}
           destination_dir: "."
           keep_files: true
+          commit_message: "Create root index.html"
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v7
@@ -79,6 +80,7 @@ jobs:
           publish_dir: ${{ env.BUILD_DIR }}
           destination_dir: ${{ steps.github-pages.outputs.directory }}
           enable_jekyll: false
+          commit_message: "Create/update Jekyll site for ${{ steps.branch-name.outputs.current_branch }}"
       - name: Wait for deployment to become available
         uses: iFaxity/wait-on-action@v1
         with:
@@ -110,7 +112,7 @@ jobs:
           rm -rf ${{ env.PREVIEW_SUBDIR }}/${{ github.event.ref }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Delete preview for ${{ github.event.ref }}"
+          commit_message: "Delete preview Jekyll site for ${{ github.event.ref }}"
       - name: Deactivate environment
         uses: bobheadxi/deployments@v1
         with:
