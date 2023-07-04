@@ -5,7 +5,9 @@ on:
     branches: ["*"]
 
 env:
+  BUILD_DIR: "./build"
   REPO_NAME: 'folkebibliotekernes_cms_manual'
+  PREVIEW_SUBDIR: 'preview'
 
 jobs:
   build:
@@ -21,17 +23,17 @@ jobs:
         run: |
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
             echo "::set-output name=directory::main"
-            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/folkebibliotekernes_cms_manual/main"
+            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/{{ env.REPO_NAME }}/main"
           else
             echo "::set-output name=directory::preview/${{ steps.branch-name.outputs.current_branch }}"
-            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/folkebibliotekernes_cms_manual/preview/${{ steps.branch-name.outputs.current_branch }}"
+            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/${{ env.REPO_NAME }}/${{ env.PREVIEW_SUBDIR }}/${{ steps.branch-name.outputs.current_branch }}"
           fi
       - name: Set Jekyll base url
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: '_config.yml'
           propertyPath: 'baseurl'
-          value: '/folkebibliotekernes_cms_manual/${{ steps.github-pages.outputs.directory }}'
+          value: '/${{ env.REPO_NAME }}/${{ steps.github-pages.outputs.directory }}'
           commitChange: false
       - name: Setup Pages
         id: pages
@@ -39,7 +41,7 @@ jobs:
       - name: Build
         uses: actions/jekyll-build-pages@v1
         with:
-          destination: ./build
+          destination: ${{ env.BUILD_DIR }}
       - name: Start deployment
         uses: bobheadxi/deployments@v1
         id: deployment
@@ -52,7 +54,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./build
+          publish_dir: ${{ env.BUILD_DIR }}
           destination_dir: ${{ steps.github-pages.outputs.directory }}
           enable_jekyll: false
       - name: Update deployment status
