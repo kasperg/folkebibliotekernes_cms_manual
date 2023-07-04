@@ -45,11 +45,11 @@ jobs:
         id: github-pages
         run: |
           if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
-            echo "::set-output name=directory::main"
-            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/${{ env.REPO_NAME }}/main"
+            echo "directory=main" >> $GITHUB_OUTPUT
+            echo "url=https://${{ github.repository_owner }}.github.io/${{ env.REPO_NAME }}/main" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=directory::preview/${{ steps.branch-name.outputs.current_branch }}"
-            echo "::set-output name=url::https://${{ github.repository_owner }}.github.io/${{ env.REPO_NAME }}/${{ env.PREVIEW_SUBDIR }}/${{ steps.branch-name.outputs.current_branch }}"
+            echo "directory=preview/${{ steps.branch-name.outputs.current_branch }}" >> $GITHUB_OUTPUT
+            echo "url=https://${{ github.repository_owner }}.github.io/${{ env.REPO_NAME }}/${{ env.PREVIEW_SUBDIR }}/${{ steps.branch-name.outputs.current_branch }}" >> $GITHUB_OUTPUT
           fi
       - name: Configure GitHub Pages
         id: pages
