@@ -3,14 +3,18 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches: ["*"]
+  delete:
+    branches: ["*"]
 
 env:
+  GITHUB_PAGES_BRANCH: "gh-pages"
   BUILD_DIR: "./build"
   REPO_NAME: 'folkebibliotekernes_cms_manual'
   PREVIEW_SUBDIR: 'preview'
 
 jobs:
   build:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -53,7 +57,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
+          publish_branch: ${{ env.GITHUB_PAGES_BRANCH }}
           publish_dir: ${{ env.BUILD_DIR }}
           destination_dir: ${{ steps.github-pages.outputs.directory }}
           enable_jekyll: false
@@ -67,3 +71,26 @@ jobs:
           env: ${{ steps.deployment.outputs.env }}
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
           env_url: ${{ steps.github-pages.outputs.url }}
+
+  delete:
+    if: github.event_name == 'delete'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ env.GITHUB_PAGES_BRANCH }}
+      # We cannot use tj-actions/branch-names to get the name of the deleted
+      # branch as it will already be deleted when this runs.
+      - name: Delete preview
+        run: |
+          rm -rf ${{ env.PREVIEW_SUBDIR }}/${{ github.event.ref }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Delete preview for ${{ github.event.ref }}"
+      - name: Close environment
+        uses: bobheadxi/deployments@v1
+        with:
+          step: deactivate-env
+          token: ${{ secrets.GITHUB_TOKEN }}
+          env: ${{ github.event.ref }}
