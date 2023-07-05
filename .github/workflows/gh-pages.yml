@@ -13,6 +13,10 @@ env:
   REPO_NAME: 'folkebibliotekernes_cms_manual'
   PREVIEW_SUBDIR: 'preview'
 
+permissions:
+  contents: write
+  deployments: write
+
 jobs:
   build:
     name: "Build and deploy Jekyll site"
